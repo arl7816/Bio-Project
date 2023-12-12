@@ -77,25 +77,34 @@ def print_stats(eco: classes.Ecosystem, day: int) -> None:
   return
 
 def init_data() -> None:
-  results["days"] = []
+  results["samples"] = []
+
+def init_sample() -> None:
+  results["samples"].append({"years": []})
 
 def append_data(eco: classes.Ecosystem) -> None:
-  results["days"].append({"levels": []})
+  arr = results["samples"][-1]["years"]
+  arr.append({"levels": []})
+  results["samples"][-1]["years"] = arr
+
+  #results["years"].append({"levels": []})
   for level in eco.trophic_layers:
-    arr = results["days"][-1]["levels"]
+    arr = results["samples"][-1]["years"][-1]["levels"]
     arr.append({"species": []})
-    results["days"][-1]["levels"] = arr
+    results["samples"][-1]["years"][-1]["levels"] = arr
+
     for spec in level:
       total_plastic = 0
       for orga in spec.population:
         total_plastic += orga.plastic
-      arr = results["days"][-1]["levels"][-1]["species"]
+
+      arr = results["samples"][-1]["years"][-1]["levels"][-1]["species"]
       arr.append({"id": spec.id, "total": len(spec.population), "plastic": total_plastic})
-      results["days"][-1]["levels"][-1]["species"] = arr
+      results["samples"][-1]["years"][-1]["levels"][-1]["species"] = arr
 
 def submit_data() -> None:
   with open("results.json", "w") as file:
-    file.write(json.dumps(results, indent=4))
+    file.write(json.dumps(results, indent=2))
 
 def fetch_data() -> dict:
   with open("results.json", "r") as file:

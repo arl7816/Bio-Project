@@ -13,10 +13,10 @@ class Organism:
 
   instance = 0
 
-  def __init__(self, max_plastic: int, max_life = 1) -> None:
+  def __init__(self, max_plastic: int, max_life = 1, start_life = -1) -> None:
     self.plastic = 0
     self.max_life = max_life
-    self.life = ran(0,max_life-1)
+    self.life = ran(0,max_life-1) if start_life == -1 else start_life
     self.max_plastic = max_plastic
     self.id = Organism.instance
     Organism.instance += 1
@@ -49,9 +49,9 @@ class Ecosystem:
 
   def __init__(self) -> None:
     self.trophic_layers = [None for _ in range(3)] 
-    self.trophic_layers[0] = [Species(7, 24, -1, 90, -1, 36) for _ in range(7)]
-    self.trophic_layers[1] = [Species(10, 14, 2, 90, -1, 20) for _ in range(5)]
-    self.trophic_layers[2] = [Species(20, 2, 2, 90, -1, 4) for _ in range(3)]
+    self.trophic_layers[0] = [Species(30, 150, -1, 360, -1, 500) for _ in range(10)]
+    self.trophic_layers[1] = [Species(120, 100, 1, 1800, 50, 100) for _ in range(5)]
+    self.trophic_layers[2] = [Species(720, 1, 1, 7200, 100, 10) for _ in range(3)]
 
 
 class Data():

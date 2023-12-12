@@ -55,7 +55,7 @@ def simulate_day(eco: classes.Ecosystem, day_num: int) -> classes.Ecosystem:
         # is the animal going to reproduce
         #print(animal.life)
         if animal.life % spec.reprodution_rate == 0:
-          new_orgas.extend([classes.Organism(animal.max_plastic, 1) for _ in range(spec.reprodution_amount)])
+          new_orgas.extend([classes.Organism(animal.max_plastic, animal.max_life, 1) for _ in range(ran(1, spec.reprodution_amount))])
 
       spec.population.extend(new_orgas)
     return species, lower_level
@@ -66,19 +66,17 @@ def simulate_day(eco: classes.Ecosystem, day_num: int) -> classes.Ecosystem:
 
   return eco
 
-def simulate(eco: classes.Ecosystem, days: int, start_plastic: int, show_stats = False):
+def simulate(eco: classes.Ecosystem, days: int, start_plastic: int, daily_plastic: int, show_stats = False):
   # introduce the plastic into population
   eco = introduce_plastic(eco, start_plastic)
 
-  data.init_data()
   for day in range(days):
     data.append_data(eco)
     if show_stats: data.print_stats(eco, day)
     eco = simulate_day(eco, day)
-    eco = introduce_plastic(eco, 10)
-    print("Day", day, "complete")
+    eco = introduce_plastic(eco, daily_plastic)
+    print("Year", day, "complete")
   data.append_data(eco)
-  data.submit_data()
 
   return
 
@@ -86,14 +84,26 @@ def main() -> None:
 
   print("Generating ecosystem sample")
   
+  data.init_data()
+
   eco = generate_ecosystem()
   
-  print("Starting simulation")
+  print("Starting simulation (no plastic)")
 
-  simulate(eco, 20, 100)
+  data.init_sample()
+  simulate(eco, 30, 0, 100, False)
 
   print("complete")
 
+  eco = generate_ecosystem()
+
+  print("Starting simulation (with plastic)")
+  data.init_sample()
+  simulate(eco, 30, 1000, 100000, False)
+
+  print("complete")
+
+  data.submit_data()
   plot.display_results()
 
   return
