@@ -1,0 +1,1835 @@
+{
+    "days": [
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 36,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 1,
+                            "total": 36,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 2,
+                            "total": 36,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 3,
+                            "total": 36,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 4,
+                            "total": 36,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 5,
+                            "total": 36,
+                            "plastic": 12
+                        },
+                        {
+                            "id": 6,
+                            "total": 36,
+                            "plastic": 11
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 20,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 8,
+                            "total": 20,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 9,
+                            "total": 20,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 10,
+                            "total": 20,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 11,
+                            "total": 20,
+                            "plastic": 0
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 4,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 13,
+                            "total": 4,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 14,
+                            "total": 4,
+                            "plastic": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 209,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 1,
+                            "total": 189,
+                            "plastic": 23
+                        },
+                        {
+                            "id": 2,
+                            "total": 210,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 3,
+                            "total": 228,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 4,
+                            "total": 136,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 5,
+                            "total": 137,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 6,
+                            "total": 153,
+                            "plastic": 11
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 72,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 8,
+                            "total": 45,
+                            "plastic": 3
+                        },
+                        {
+                            "id": 9,
+                            "total": 31,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 10,
+                            "total": 9,
+                            "plastic": 4
+                        },
+                        {
+                            "id": 11,
+                            "total": 73,
+                            "plastic": 0
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 4,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 13,
+                            "total": 4,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 14,
+                            "total": 4,
+                            "plastic": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 327,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 1,
+                            "total": 216,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 2,
+                            "total": 221,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 3,
+                            "total": 322,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 4,
+                            "total": 272,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 5,
+                            "total": 103,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 6,
+                            "total": 290,
+                            "plastic": 10
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 63,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 8,
+                            "total": 114,
+                            "plastic": 8
+                        },
+                        {
+                            "id": 9,
+                            "total": 25,
+                            "plastic": 4
+                        },
+                        {
+                            "id": 10,
+                            "total": 35,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 11,
+                            "total": 80,
+                            "plastic": 5
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 4,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 13,
+                            "total": 4,
+                            "plastic": 0
+                        },
+                        {
+                            "id": 14,
+                            "total": 4,
+                            "plastic": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 377,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 1,
+                            "total": 203,
+                            "plastic": 12
+                        },
+                        {
+                            "id": 2,
+                            "total": 224,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 3,
+                            "total": 309,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 4,
+                            "total": 255,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 5,
+                            "total": 128,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 6,
+                            "total": 369,
+                            "plastic": 10
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 58,
+                            "plastic": 13
+                        },
+                        {
+                            "id": 8,
+                            "total": 123,
+                            "plastic": 17
+                        },
+                        {
+                            "id": 9,
+                            "total": 18,
+                            "plastic": 4
+                        },
+                        {
+                            "id": 10,
+                            "total": 45,
+                            "plastic": 12
+                        },
+                        {
+                            "id": 11,
+                            "total": 105,
+                            "plastic": 9
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 4,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 13,
+                            "total": 4,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 288,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 1,
+                            "total": 216,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 2,
+                            "total": 218,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 3,
+                            "total": 344,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 4,
+                            "total": 266,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 5,
+                            "total": 111,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 6,
+                            "total": 295,
+                            "plastic": 9
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 79,
+                            "plastic": 16
+                        },
+                        {
+                            "id": 8,
+                            "total": 145,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 9,
+                            "total": 29,
+                            "plastic": 4
+                        },
+                        {
+                            "id": 10,
+                            "total": 56,
+                            "plastic": 13
+                        },
+                        {
+                            "id": 11,
+                            "total": 140,
+                            "plastic": 13
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 4,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 13,
+                            "total": 3,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 180,
+                            "plastic": 3
+                        },
+                        {
+                            "id": 1,
+                            "total": 128,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 2,
+                            "total": 197,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 3,
+                            "total": 259,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 4,
+                            "total": 173,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 6,
+                            "total": 197,
+                            "plastic": 5
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 127,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 157,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 35,
+                            "plastic": 4
+                        },
+                        {
+                            "id": 10,
+                            "total": 93,
+                            "plastic": 16
+                        },
+                        {
+                            "id": 11,
+                            "total": 135,
+                            "plastic": 23
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 13,
+                            "total": 3,
+                            "plastic": 3
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 1197,
+                            "plastic": 3
+                        },
+                        {
+                            "id": 1,
+                            "total": 724,
+                            "plastic": 4
+                        },
+                        {
+                            "id": 2,
+                            "total": 840,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 3,
+                            "total": 1457,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 4,
+                            "total": 632,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 6,
+                            "total": 623,
+                            "plastic": 6
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 176,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 8,
+                            "total": 177,
+                            "plastic": 37
+                        },
+                        {
+                            "id": 9,
+                            "total": 61,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 10,
+                            "total": 87,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 11,
+                            "total": 142,
+                            "plastic": 25
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 13,
+                            "total": 5,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 1877,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 1,
+                            "total": 927,
+                            "plastic": 2
+                        },
+                        {
+                            "id": 2,
+                            "total": 1031,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 3,
+                            "total": 2262,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 4,
+                            "total": 1073,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 6,
+                            "total": 1393,
+                            "plastic": 5
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 196,
+                            "plastic": 22
+                        },
+                        {
+                            "id": 8,
+                            "total": 182,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 112,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 10,
+                            "total": 79,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 11,
+                            "total": 152,
+                            "plastic": 26
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 13,
+                            "total": 5,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 2338,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 1,
+                            "total": 1041,
+                            "plastic": 3
+                        },
+                        {
+                            "id": 2,
+                            "total": 1390,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 3,
+                            "total": 2660,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 4,
+                            "total": 1259,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 6,
+                            "total": 2251,
+                            "plastic": 7
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 189,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 8,
+                            "total": 204,
+                            "plastic": 35
+                        },
+                        {
+                            "id": 9,
+                            "total": 104,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 71,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 11,
+                            "total": 172,
+                            "plastic": 26
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 16
+                        },
+                        {
+                            "id": 13,
+                            "total": 5,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 2197,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 1,
+                            "total": 1165,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 2,
+                            "total": 1626,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 3,
+                            "total": 3580,
+                            "plastic": 12
+                        },
+                        {
+                            "id": 4,
+                            "total": 1598,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 6,
+                            "total": 2131,
+                            "plastic": 7
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 186,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 8,
+                            "total": 206,
+                            "plastic": 36
+                        },
+                        {
+                            "id": 9,
+                            "total": 100,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 62,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 11,
+                            "total": 180,
+                            "plastic": 25
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 17
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 2246,
+                            "plastic": 13
+                        },
+                        {
+                            "id": 1,
+                            "total": 1048,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 2,
+                            "total": 2227,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 3,
+                            "total": 3889,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 4,
+                            "total": 1514,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 6,
+                            "total": 2193,
+                            "plastic": 9
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 177,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 8,
+                            "total": 212,
+                            "plastic": 37
+                        },
+                        {
+                            "id": 9,
+                            "total": 95,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 69,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 11,
+                            "total": 199,
+                            "plastic": 24
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 17
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 17925,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 1,
+                            "total": 6459,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 2,
+                            "total": 10873,
+                            "plastic": 13
+                        },
+                        {
+                            "id": 3,
+                            "total": 24733,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 4,
+                            "total": 7089,
+                            "plastic": 8
+                        },
+                        {
+                            "id": 6,
+                            "total": 8707,
+                            "plastic": 11
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 636,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 8,
+                            "total": 528,
+                            "plastic": 37
+                        },
+                        {
+                            "id": 9,
+                            "total": 119,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 57,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 11,
+                            "total": 732,
+                            "plastic": 24
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 30807,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 1,
+                            "total": 9932,
+                            "plastic": 8
+                        },
+                        {
+                            "id": 2,
+                            "total": 15449,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 3,
+                            "total": 40904,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 4,
+                            "total": 13739,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 6,
+                            "total": 22168,
+                            "plastic": 11
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 630,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 8,
+                            "total": 1249,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 125,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 204,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 11,
+                            "total": 876,
+                            "plastic": 24
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 41348,
+                            "plastic": 17
+                        },
+                        {
+                            "id": 1,
+                            "total": 12971,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 2,
+                            "total": 22692,
+                            "plastic": 17
+                        },
+                        {
+                            "id": 3,
+                            "total": 51364,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 4,
+                            "total": 18723,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 6,
+                            "total": 38723,
+                            "plastic": 11
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 623,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 8,
+                            "total": 1378,
+                            "plastic": 36
+                        },
+                        {
+                            "id": 9,
+                            "total": 118,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 266,
+                            "plastic": 7
+                        },
+                        {
+                            "id": 11,
+                            "total": 1121,
+                            "plastic": 25
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 9
+                        },
+                        {
+                            "id": 14,
+                            "total": 6,
+                            "plastic": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 41848,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 1,
+                            "total": 16626,
+                            "plastic": 13
+                        },
+                        {
+                            "id": 2,
+                            "total": 29025,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 3,
+                            "total": 72847,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 4,
+                            "total": 26302,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 6,
+                            "total": 39702,
+                            "plastic": 12
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 912,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 8,
+                            "total": 1691,
+                            "plastic": 37
+                        },
+                        {
+                            "id": 9,
+                            "total": 209,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 359,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 11,
+                            "total": 1617,
+                            "plastic": 25
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 6,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 10
+                        },
+                        {
+                            "id": 14,
+                            "total": 7,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 45507,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 1,
+                            "total": 17022,
+                            "plastic": 14
+                        },
+                        {
+                            "id": 2,
+                            "total": 42358,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 3,
+                            "total": 82152,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 4,
+                            "total": 27202,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 6,
+                            "total": 43702,
+                            "plastic": 12
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 1532,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 1836,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 317,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 599,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 11,
+                            "total": 1610,
+                            "plastic": 28
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 8,
+                            "plastic": 22
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 14,
+                            "total": 7,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 368764,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 1,
+                            "total": 107973,
+                            "plastic": 16
+                        },
+                        {
+                            "id": 2,
+                            "total": 208841,
+                            "plastic": 18
+                        },
+                        {
+                            "id": 3,
+                            "total": 527892,
+                            "plastic": 25
+                        },
+                        {
+                            "id": 4,
+                            "total": 131174,
+                            "plastic": 12
+                        },
+                        {
+                            "id": 6,
+                            "total": 175861,
+                            "plastic": 12
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 2207,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 2123,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 617,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 620,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 11,
+                            "total": 1785,
+                            "plastic": 29
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 7,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 14,
+                            "total": 7,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 644602,
+                            "plastic": 23
+                        },
+                        {
+                            "id": 1,
+                            "total": 175676,
+                            "plastic": 16
+                        },
+                        {
+                            "id": 2,
+                            "total": 308507,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 3,
+                            "total": 886212,
+                            "plastic": 26
+                        },
+                        {
+                            "id": 4,
+                            "total": 265207,
+                            "plastic": 15
+                        },
+                        {
+                            "id": 6,
+                            "total": 458546,
+                            "plastic": 14
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 2560,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 2279,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 1153,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 616,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 11,
+                            "total": 1933,
+                            "plastic": 29
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 7,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 14,
+                            "total": 7,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 882001,
+                            "plastic": 23
+                        },
+                        {
+                            "id": 1,
+                            "total": 244453,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 2,
+                            "total": 472500,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 3,
+                            "total": 1131533,
+                            "plastic": 28
+                        },
+                        {
+                            "id": 4,
+                            "total": 377768,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 6,
+                            "total": 819611,
+                            "plastic": 14
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 2552,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 2661,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 1142,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 607,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 11,
+                            "total": 2306,
+                            "plastic": 29
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 9,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 13,
+                            "total": 7,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 14,
+                            "total": 7,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 914441,
+                            "plastic": 25
+                        },
+                        {
+                            "id": 1,
+                            "total": 332206,
+                            "plastic": 22
+                        },
+                        {
+                            "id": 2,
+                            "total": 625113,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 3,
+                            "total": 1627063,
+                            "plastic": 30
+                        },
+                        {
+                            "id": 4,
+                            "total": 550602,
+                            "plastic": 21
+                        },
+                        {
+                            "id": 6,
+                            "total": 860839,
+                            "plastic": 15
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 2545,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 2809,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 1134,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 595,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 11,
+                            "total": 2475,
+                            "plastic": 29
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 9,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 13,
+                            "total": 9,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 14,
+                            "total": 11,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "levels": [
+                {
+                    "species": [
+                        {
+                            "id": 0,
+                            "total": 1027087,
+                            "plastic": 27
+                        },
+                        {
+                            "id": 1,
+                            "total": 368913,
+                            "plastic": 23
+                        },
+                        {
+                            "id": 2,
+                            "total": 943583,
+                            "plastic": 22
+                        },
+                        {
+                            "id": 3,
+                            "total": 1866107,
+                            "plastic": 32
+                        },
+                        {
+                            "id": 4,
+                            "total": 599167,
+                            "plastic": 22
+                        },
+                        {
+                            "id": 6,
+                            "total": 978677,
+                            "plastic": 17
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 7,
+                            "total": 2531,
+                            "plastic": 19
+                        },
+                        {
+                            "id": 8,
+                            "total": 2978,
+                            "plastic": 38
+                        },
+                        {
+                            "id": 9,
+                            "total": 1126,
+                            "plastic": 6
+                        },
+                        {
+                            "id": 10,
+                            "total": 750,
+                            "plastic": 5
+                        },
+                        {
+                            "id": 11,
+                            "total": 2843,
+                            "plastic": 29
+                        }
+                    ]
+                },
+                {
+                    "species": [
+                        {
+                            "id": 12,
+                            "total": 11,
+                            "plastic": 20
+                        },
+                        {
+                            "id": 13,
+                            "total": 9,
+                            "plastic": 11
+                        },
+                        {
+                            "id": 14,
+                            "total": 11,
+                            "plastic": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

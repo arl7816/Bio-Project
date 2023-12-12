@@ -1,6 +1,7 @@
 import classes
 from random import randint as ran
 import data
+import plot
 
 def generate_ecosystem() -> classes.Ecosystem:
   return classes.Ecosystem()
@@ -17,77 +18,83 @@ def introduce_plastic(eco: classes.Ecosystem, plastic: int) -> classes.Ecosystem
   return eco
 
 def simulate_day(eco: classes.Ecosystem, day_num: int) -> classes.Ecosystem:
-  # producers
-  producers = eco.trophic_layers[0]
-  print("len of prod before:", len(producers[0].population))
-  for i, producer in enumerate(producers):
-    new_orgas = []
-    for index, animal in enumerate(producer.population):
-      animal.life += 1
-      
-      if animal.life % producer.reprodution_rate == 0:
-        new_orgas.extend([classes.Organism(-1) for _ in range(producer.reprodution_amount)])
-      
-      if day_num % producer.death_rate == 0:
-        producer.population.pop(index)
-    producer.population.extend(new_orgas)
-  print("len of prod after:", len(producers[0].population))
+  def simulate_layer(species: list[classes.Species], lower_level: list[classes.Species]) -> (list[classes.Species], list[classes.Species]):
+    for spec_index, spec in enumerate(species):
+      new_orgas = []
+      for animal_index, animal in enumerate(spec.population):
+        animal.life += 1
 
-  # consumers
-  consumers = eco.trophic_layers[1]
-  for consumer in consumers:
-    new_orgas = []
-    for index, animal in enumerate(consumer.population):
-      if day_num % consumer.reprodution_rate == 0:
-        #consumer.population.append(classes.Organism())
-        new_orgas.append(classes.Organism(50))
+        # is the animal going to die
+        if animal.life > spec.death_rate and spec.death_rate > -1:
+          spec.population.pop(animal_index)
+          if len(spec.population) == 0:
+            species.pop(spec_index)
+          continue
 
-      if day_num % consumer.death_rate == 0:
-        consumer.population.pop(index)
-        continue
-      
-      for _ in range(consumer.eat_rate):
-        spec_num = ran(0, len(producers)-1)
-        #print(len(producers))
-        orga_num = ran(0, len(producers[spec_num].population) - 1)
+        # is the animal going to eat
+        for _ in range(spec.eat_rate):
+          if lower_level is None: break
+          if len(lower_level) == 0:
+            data.print_stats(eco, -1)
+            raise IndexError("Went extinct on day " + str(day_num))
+          spec_num = ran(0, len(lower_level)-1)
+          #print(len(producers))
+          orga_num = ran(0, len(lower_level[spec_num].population) - 1)
 
-        animal.plastic += producers[spec_num].population[orga_num].plastic
-        producers[spec_num].population.pop(orga_num)
-        if len(producers[spec_num].population) == 0:
-          producers.pop(spec_num)
+          animal.plastic += lower_level[spec_num].population[orga_num].plastic
+          lower_level[spec_num].population.pop(orga_num)
+          if len(lower_level[spec_num].population) == 0:
+            lower_level.pop(spec_num)
 
-      if animal.max_plastic <= animal.plastic:
-        consumer.population.pop(index)
-    consumer.population.extend(new_orgas)
+          if animal.max_plastic <= animal.plastic and animal.max_plastic > -1:
+            spec.population.pop(animal_index)
+            if len(spec.population) == 0:
+              species.pop(spec_index)
+            continue
 
-  # secondary consumers
+        # is the animal going to reproduce
+        #print(animal.life)
+        if animal.life % spec.reprodution_rate == 0:
+          new_orgas.extend([classes.Organism(animal.max_plastic, 1) for _ in range(spec.reprodution_amount)])
+
+      spec.population.extend(new_orgas)
+    return species, lower_level
+  x = None
+  eco.trophic_layers[0], x = simulate_layer(eco.trophic_layers[0], None)
+  for layer_index in range(1,len(eco.trophic_layers)):
+    eco.trophic_layers[layer_index], eco.trophic_layers[layer_index-1] = simulate_layer(eco.trophic_layers[layer_index], eco.trophic_layers[layer_index-1])
 
   return eco
 
-def simulate(eco: classes.Ecosystem, days: int, start_plastic: int):
+def simulate(eco: classes.Ecosystem, days: int, start_plastic: int, show_stats = False):
   # introduce the plastic into population
   eco = introduce_plastic(eco, start_plastic)
 
-  """for level in eco.trophic_layers:
-    for spec in level:
-      for animal in spec.population:
-        if animal.plastic > 0:
-          print(animal.id , animal.plastic)"""
-
-  # simulate the days
-  data.print_stats(eco)
+  data.init_data()
   for day in range(days):
+    data.append_data(eco)
+    if show_stats: data.print_stats(eco, day)
     eco = simulate_day(eco, day)
     eco = introduce_plastic(eco, 10)
-  data.print_stats(eco)
+    print("Day", day, "complete")
+  data.append_data(eco)
+  data.submit_data()
 
   return
 
 def main() -> None:
 
+  print("Generating ecosystem sample")
+  
   eco = generate_ecosystem()
+  
+  print("Starting simulation")
 
-  simulate(eco, 10, 20000)
+  simulate(eco, 20, 100)
+
+  print("complete")
+
+  plot.display_results()
 
   return
 
