@@ -3,8 +3,8 @@ from random import randint as ran
 import data
 import plot
 
-def generate_ecosystem() -> classes.Ecosystem:
-  return classes.Ecosystem()
+def generate_ecosystem(spec_count: tuple[int], *args: tuple[int, int, int, int, int, int]) -> classes.Ecosystem:
+  return classes.Ecosystem(spec_count, *args)
 
 def introduce_plastic(eco: classes.Ecosystem, plastic: int) -> classes.Ecosystem:
   producers = eco.trophic_layers[0]
@@ -35,8 +35,8 @@ def simulate_day(eco: classes.Ecosystem, day_num: int) -> classes.Ecosystem:
         for _ in range(spec.eat_rate):
           if lower_level is None: break
           if len(lower_level) == 0:
-            data.print_stats(eco, -1)
-            raise IndexError("Went extinct on day " + str(day_num))
+            #data.print_stats(eco, -1)
+            break
           spec_num = ran(0, len(lower_level)-1)
           #print(len(producers))
           orga_num = ran(0, len(lower_level[spec_num].population) - 1)
@@ -45,6 +45,8 @@ def simulate_day(eco: classes.Ecosystem, day_num: int) -> classes.Ecosystem:
           lower_level[spec_num].population.pop(orga_num)
           if len(lower_level[spec_num].population) == 0:
             lower_level.pop(spec_num)
+            if len(lower_level) == 0:
+              print("Trophic level went exinct")
 
           if animal.max_plastic <= animal.plastic and animal.max_plastic > -1:
             spec.population.pop(animal_index)
@@ -86,22 +88,29 @@ def main() -> None:
   
   data.init_data()
 
-  eco = generate_ecosystem()
+  eco = generate_ecosystem((10, 5, 3), (30, 150, -1, 360, -1, 500), (120, 100, 1, 1800, -1, 100), (720, 1, 1, 7200, -1, 10))
   
   print("Starting simulation (no plastic)")
 
   data.init_sample()
-  simulate(eco, 30, 0, 100, False)
+  simulate(eco, 50, 0, 100, False)
 
   print("complete")
 
-  eco = generate_ecosystem()
+  eco = generate_ecosystem((10, 5, 3), (30, 150, -1, 360, -1, 500), (120, 100, 1, 1800, 50, 100), (720, 1, 1, 7200, 100, 10))
 
-  print("Starting simulation (with plastic)")
+  print("Starting simulation (weak primary)")
   data.init_sample()
-  simulate(eco, 30, 1000, 100000, False)
+  simulate(eco, 50, 1000, 100000, False)
 
   print("complete")
+
+  print("Starting simulation (weak secondary)")
+  data.init_sample()
+  eco = generate_ecosystem((10, 5, 3), (30, 150, -1, 360, -1, 500), (120, 100, 1, 1800,-1, 100), (720, 1, 1, 7200, 20, 10))
+  simulate(eco, 50, 1000, 100000, False)
+
+  print("All done")
 
   data.submit_data()
   plot.display_results()

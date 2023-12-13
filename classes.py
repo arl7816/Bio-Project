@@ -47,11 +47,11 @@ class Species:
 class Ecosystem:
   trophic_layers: list[list[Species]] # [producers, consumers, secondary consumers]
 
-  def __init__(self) -> None:
+  def __init__(self, spec_count: tuple[int], *args: tuple[int, int, int, int, int, int]) -> None:
     self.trophic_layers = [None for _ in range(3)] 
-    self.trophic_layers[0] = [Species(30, 150, -1, 360, -1, 500) for _ in range(10)]
-    self.trophic_layers[1] = [Species(120, 100, 1, 1800, 50, 100) for _ in range(5)]
-    self.trophic_layers[2] = [Species(720, 1, 1, 7200, 100, 10) for _ in range(3)]
+    self.trophic_layers[0] = [Species(*args[0]) for _ in range(spec_count[0])]
+    self.trophic_layers[1] = [Species(*args[1]) for _ in range(spec_count[1])]
+    self.trophic_layers[2] = [Species(*args[2]) for _ in range(spec_count[2])]
 
 
 class Data():

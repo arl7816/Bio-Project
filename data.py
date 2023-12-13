@@ -111,14 +111,14 @@ def fetch_data() -> dict:
     data = json.load(file)
     return data
 
-def plot(trt: tuple, data: Data, color, legend="", marker=None, key=None):
+def plot(trt: tuple, data: Data, color, legend="", marker=None, key=None, linestyle = None):
   if key == None:
     key = trt
 
   sub = plt.subplot(trt[0], trt[1], trt[2])
   subplots[key] = sub
 
-  sub.plot(data.x, data.y, label=legend, color=color, marker=marker)
+  sub.plot(data.x, data.y, label=legend, color=color, marker=marker, linestyle = linestyle)
   return sub
 
 def scatter(trt: tuple, data: Data, color: str, legend="", marker=None, key=None):
